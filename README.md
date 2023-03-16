@@ -1,4 +1,6 @@
-# ProductsWeb
+# Projeto Full Stack - Atividade 4
+
+Atividade Proposta:  Construir o Front-End da aplicação e-commerce da Unidade 3. Lembre-se que é para cadastrar, remover e atualizar um produto, além da tela de listar todos os produtos.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
