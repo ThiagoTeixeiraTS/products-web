@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>Edição do Produto</h1>
+
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Descrição do produto</mat-label>
+    <input matInput [(ngModel)]="data.name" />
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <mat-label>Categoria</mat-label>
+    <input type="number" matInput [(ngModel)]="data.category" />
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <mat-label>Preço</mat-label>
+    <input type="number" matInput [(ngModel)]="data.price" />
+  </mat-form-field>
+</div>
+<br />
+
+<div class="button" mat-dialog-actions>
+  <button mat-button color="warn" (click)="onCancel()">Cancelar</button>
+  <button mat-button color="primary" [mat-dialog-close]="data" cdkFocusInitial>
+    Salvar
+  </button>
+</div>
